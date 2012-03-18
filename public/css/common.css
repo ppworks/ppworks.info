@@ -1,0 +1,21 @@
+@charset utf-8;
+/* Your styles end here */
+
+/* Print styles */
+@media print {
+
+}
+
+/* Media queries */
+
+@media (max-width: 1100px) {
+
+}
+
+@media (max-width: 980px) {
+
+}
+
+@media (max-width: 480px) {
+
+}
