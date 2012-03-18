@@ -1,5 +1,12 @@
 @charset utf-8;
 /* Your styles end here */
+img#title_image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -33px;
+}
 
 /* Print styles */
 @media print {
