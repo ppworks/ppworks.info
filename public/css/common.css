@@ -1,11 +1,32 @@
 @charset utf-8;
 /* Your styles end here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 img#title_image {
     position: fixed;
     top: 50%;
     left: 50%;
     margin-left: -200px;
     margin-top: -33px;
+}
+
+ul {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 0;
+}
+
+ul>li {
+  position: relative;
+  width: 300px;
+  padding: 15px 10px;
+  list-style: none;
+  color: #fff;
+  background: url('/images/timeline_dot.png') left center no-repeat;
 }
 
 /* Print styles */
