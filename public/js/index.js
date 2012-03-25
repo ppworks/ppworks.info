@@ -3,8 +3,7 @@ $(function() {
     var TITLE_IMAGE_2 = '/images/title2.png';
 
     $('html').mousemove(function(e) {
-        var body = $('body');
-        body.animate({'background-color': rgb_color(), 'queue': false}, 5000);
+        $('html').animate({'background-color': rgb_color(), 'queue': false}, 5000);
     }).click(function(e) {
         title_animation(); 
     });
