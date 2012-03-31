@@ -19,17 +19,11 @@ $(function() {
     function title_animation_1() {
         $('img#title_image')
             .attr('src', TITLE_IMAGE_1);
-        if ($.browser.msie && $.browser.version < 7.0) {
-            DD_belatedPNG.fix('.fixPNG');
-        }
     }
 
     function title_animation_2() {
         $('img#title_image')
             .attr('src', TITLE_IMAGE_2);
-        if ($.browser.msie && $.browser.version < 7.0) {
-            DD_belatedPNG.fix('.fixPNG');
-        }
     }
 
     function title_animation() {
@@ -47,7 +41,6 @@ $(function() {
             title_animation();
         };
         img.src = TITLE_IMAGE_2;
-        $('img#title_image').addClass('fixPNG');
     }
     init();
 });
