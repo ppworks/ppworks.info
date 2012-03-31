@@ -41,6 +41,7 @@ $(function() {
             title_animation();
         };
         img.src = TITLE_IMAGE_2;
+        $('html').css({'background-color': rgb_color()});
     }
     init();
 });
