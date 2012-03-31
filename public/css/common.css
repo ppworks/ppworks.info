@@ -29,6 +29,10 @@ ul>li {
   background: url('/images/timeline_dot.png') left center no-repeat;
 }
 
+ul>li:last-child {
+  padding-bottom: 55px !important;
+}
+
 ul>li.left {
   left: -325px;
   background-position: right;
@@ -93,5 +97,22 @@ ul>li>div>a:hover {
 }
 
 @media (max-width: 480px) {
-
+  html {
+    height: 1024px;
+  }
+  img#title_image {
+    display: block;
+    left: 10px;
+    width: 290px;
+    margin: 0 auto;
+  }
+  ul {
+    left: 0;
+  }
+  ul > li.left {
+    display: none;
+  }
+  ul >li.right {
+   padding: 20px 0 15px 15px;
+  }
 }
