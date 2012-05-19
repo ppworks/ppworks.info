@@ -3,17 +3,17 @@ $(function() {
     var TITLE_IMAGE_2 = '/images/title2.png';
 
     $('html').mousemove(function(e) {
-        $('html').animate({'background-color': rgb_color(), 'queue': false}, 5000);
+        //$('html').animate({'background-color': rgb_color(), 'queue': false}, 5000);
     }).click(function(e) {
         title_animation(); 
     });
 
     function rgb_color() {
-        return 'rgb(' + [gen_color(), gen_color(), gen_color()].join(',') + ')';
+        return 'hsl(' + [gen_color(255), '50%', '30%'].join(',') + ')';
     }
 
-    function gen_color() {
-        return Math.floor(Math.random() * 255);
+    function gen_color(num) {
+        return Math.floor(Math.random() * num);
     }
 
     function title_animation_1() {
